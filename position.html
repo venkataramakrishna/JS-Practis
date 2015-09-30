@@ -1,0 +1,59 @@
+<html>
+    <head>
+	<title>positions</title>
+	</head>
+
+<style>
+
+        .mainblock{
+        	height: 900px;
+        	width: 615px;
+        	border:1px solid red;
+          position: relative;
+          background-color: lightgrey;
+          display: block;
+        }
+
+        .left{
+          position: absolute;
+        }
+          .panel1 {
+            left: 10px;
+            top: 10px;
+            z-index: 2;
+          }
+          .panel2 {
+            bottom: 550px;
+            left: 70px;
+            z-index: 1;
+          }
+          .panel3 {
+            left: 330px;
+            top: 10px;
+            z-index: ;
+          }
+          .panel4 {
+            bottom: 550px;
+            left: 400px;
+            z-index: 2;
+          }
+       
+</style>
+<body>
+	<div class="mainblock">
+
+	   <div class="panel1 left ">
+       <img src="images/Chrysanthemum.jpg" width="200" height="200">
+     </div>
+       <div class="panel2 left "> 
+        <img src="images/Desert.jpg" width="200" height="200">
+      </div>
+      <div class="panel3 left">
+        <img src="images/Hydrangeas.jpg" width="200px" height="200px">
+      </div> 
+        <div class="panel4 left">
+        <img src="images/Jellyfish.jpg" width="200px" height="200px">
+      </div>
+        </div>
+	 </body>
+</html>
